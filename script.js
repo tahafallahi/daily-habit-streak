@@ -46,7 +46,7 @@ function setUp() {
 }
 
 function saveData(score, record, lastDate) {
-  localStorage.setItem("lastDate", date);
+  localStorage.setItem("lastDate", lastDate);
   localStorage.setItem("record", record);
   localStorage.setItem("scored", score);
 }
